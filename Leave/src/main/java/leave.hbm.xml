@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.tyss.Leave.dto.Leaveinfo" table="leaves_info">
+		<id name="days" type="int">
+			<column name="days" />
+			
+		</id>
+		<property name="leavetype" type="java.lang.String">
+			<column name="leave_type" />
+		</property>
+		<property name="description" type="java.lang.String">
+			<column name="description" />
+		</property>
+	</class>
+</hibernate-mapping>
