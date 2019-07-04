@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.tyss.Hibernate1.dto.Departmentinfo" table="department_info">
+		<id name="dept_id" type="int">
+			<column name="dept_Id" />
+			
+		</id>
+		<property name="d_name" type="java.lang.String">
+			<column name="d_Name" />
+		</property>
+		<property name="location" type="java.lang.String">
+			<column name="location" />
+		</property>
+	</class>
+</hibernate-mapping>
